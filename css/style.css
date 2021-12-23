@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 14px !important;
+}
+.header {
+  background-color: white !important;
+  min-height: 30px !important;
+}
+.contact-info li {
+  list-style: none;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.account-links li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.account-links li a {
+  color: black;
+  text-decoration: none;
+}
+.account-links li a:hover {
+  color: gray;
+}
+
+/* navbar */
+nav {
+  background-color: rebeccapurple;
+}
+.navbar-brand img {
+  height: 40px;
+}
+
+.form-inline .form-control {
+  width: 400px !important;
+}
+.navbar-nav,
+.nav-item a {
+  color: white !important;
+}
+.navbar-nav,
+.nav-item a:hover {
+  color: brown !important;
+}
+
+/* crousel */
+.carousel-inner {
+  margin-top: 5%;
+}
+.carousel-inner img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* section kategori */
+.section-kategori {
+  min-height: 300px;
+}
+.section-kategori img {
+  width: 200px !important;
+  height: 50px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+.kategori h5 {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 15px;
+  margin-top: 10px;
+}
+.kategori img:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+/* trending-items */
+.trending-items {
+  min-height: 500px;
+  background-color: azure;
+  margin-top: 100px;
+}
+.trending {
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  min-height: 700px !important;
+  margin-top: -50px;
+}
+
+.trending img {
+  object-fit: contain;
+  height: 200px;
+}
+.trending .card:hover {
+  border: 1px solid black;
+}
+.trending h6 {
+  text-align: center;
+}
+
+.trending h3 {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+.trending p {
+  text-align: center;
+  color: red;
+}
+.trending,
+.card {
+  margin-bottom: 20px;
+}
+
+/* section-pelayanan */
+.section-pelayanan {
+  margin-top: 100px;
+  min-height: 400px;
+}
+.section-pelayanan .figure-caption {
+  font-family: "poppins";
+  font-size: 17px;
+}
+
+/* end section-pelayanan */
+
+/* kategori-produk */
+.kategori-produk ul li a {
+  color: black;
+  text-decoration: none;
+}
+.kategori-produk ul li:hover {
+  background-color: lightblue;
+}
+.card-kategori img {
+  height: 150px;
+  object-fit: contain;
+}
+.card-kategori .card:hover {
+  border: 1px solid black;
+}
+/* end kategori-produk */
+
+/* footer */
+.footer {
+  background-color: black;
+}
+.footer h3 {
+  color: white;
+  padding-top: 80px;
+  font-weight: bold;
+}
+.footer p {
+  color: white;
+  text-align: justify;
+  font-size: 15px;
+}
+.footer h4 {
+  color: white;
+  padding-top: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding-left: 35px;
+}
+.footer h5 {
+  color: white;
+  padding-top: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+.information {
+  list-style: none;
+  padding-top: 10px;
+}
+.information li {
+  margin-bottom: 10px;
+}
+.information li a {
+  color: white;
+  text-decoration: none;
+}
+
+.information li a:hover {
+  color: grey;
+}
+
+.services {
+  list-style: none;
+  padding-top: 10px;
+}
+.services li {
+  margin-bottom: 10px;
+}
+.services li a {
+  color: white;
+  text-decoration: none;
+}
+
+.services li a:hover {
+  color: grey;
+}
+
+.sosial-media a {
+  padding-left: 10px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .section-kategori img {
+    width: 100% !important;
+    height: 100px;
+    object-fit: contain;
+  }
+  .footer h4 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+}
